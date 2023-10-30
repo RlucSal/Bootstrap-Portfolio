@@ -11,6 +11,7 @@ html{
 body{
   background-color: black;
   min-height:  100%; 
+ position: relative;
 }
 
 /*Navbar*/
@@ -93,32 +94,45 @@ body{
 .card{
   background-color: whitesmoke;
   margin-right: 6px;
-  margin-left: 6px;
-  
+  margin-left: 6px; 
 }
 
-/*Footer*/
+/*Contact Me*/
 
-footer{
+.contact-me{
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: grey;
 } 
-footer ul li{
+.contact-me ul li{
   display: inline-flex;
-  margin-top: 10px;
-}
-footer ul li a {
-  color: whitesmoke;
   
 }
-footer ul li a :hover{
+.contact-me ul li a {
+  color: whitesmoke;
+}
+.contact-me ul li a :hover{
   border-style: dotted;
   border-width: 2px;
   border-color: whitesmoke;
 }
-footer ul li a :active{
+.contact-me ul li a :active{
   scale: 1.2;
 }
 
+/*Footer*/
+
+#footer{
+  background-color: grey;
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+#footer p{
+  font-size: 30px;
+  font-family:Alfa Slab One;
+  margin-top: 10px; 
+}    
+  
