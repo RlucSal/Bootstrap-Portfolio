@@ -58,6 +58,8 @@
 
 ### Link to deployed application
 
+https://rlucsal.github.io/Bootstrap-Portfolio/
+
 
 ## Credits
 
