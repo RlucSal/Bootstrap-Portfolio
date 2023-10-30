@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0;
 }
+html{
+  height: 100%;
+}
+
+/*Body*/
+
 body{
   background-color: black;
+  min-height:  100%; 
 }
+
+/*Navbar*/
+
 .navbar{
   position: relative;
-  top: 20px;
+  top: 30px;
   width: 100%;
   z-index: 1;
   background: none;
-  border-radius: 0;
+  border-radius: 0; 
 }
 .navbar-toggler{
   color: grey !important;
@@ -24,63 +34,91 @@ body{
 .navbar-nav .nav-item .nav-link:hover{
   color: grey !important;
   border-style: dotted !important;
-  border-width: 1.5px !important;
-  
+  border-width: 1.5px !important; 
 }
 .navbar-nav .nav-item .nav-link:hover:active{
- color:whitesmoke;
- background-color:transparent;
- padding: 2px;
- font-size: 23px;
- 
+  color:whitesmoke;
+  background-color:transparent;
+  padding: 2px;
+  font-size: 23px;
 }
+
+/*Hero*/
+
 .image1{
   position: relative;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 50vw;
 }
 #slide1{
- top: -60px;
- bottom: 0;
+  top: -60px;
+  bottom: 0;
 }
 .hero-sentence {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate( -50%, -50% );
   text-align: center;
   font-weight: bold;
   font-size: 80px;
   font-family: Alfa Slab One;
-} 
-.btn{
-  position: absolute;
-  top: 86%;
-  left: 50%;
-  transform: translate( -50%, -50% );
+}  
+
+/*Grid*/
+
+.col-sm-2{
+  font-size: 30px;
+  font-family: Alfa Slab One;
   text-align: center;
-  font-weight: bold !important;
-  border-style: dotted !important;
-  border-width: 2px !important; 
-  background-color: transparent !important;
-  color: black !important;
-  box-shadow: none !important;
-  
+  color: whitesmoke;
 }
-.btn:hover{
-  color:black !important; 
-  border-width: 3px !important;
-  border-color: black !important;
-  border-style:solid !important ;
-  background-color: transparent !important;
+.col-sm-10{
+  color:  grey;
+  line-height: 35px; 
 }
-.btn:hover:active{
-  font-size: 25px !important;
-  border-width: 3px !important;
-  border-color: black !important;
-  border-style:solid !important;
- 
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px; 
 }
 
+/*Cards*/
+
+.img-size{
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+.card{
+  background-color: whitesmoke;
+  margin-right: 6px;
+  margin-left: 6px;
+  
+}
+
+/*Footer*/
+
+footer{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+} 
+footer ul li{
+  display: inline-flex;
+  margin-top: 10px;
+}
+footer ul li a {
+  color: whitesmoke;
+  
+}
+footer ul li a :hover{
+  border-style: dotted;
+  border-width: 2px;
+  border-color: whitesmoke;
+}
+footer ul li a :active{
+  scale: 1.2;
+}
 
