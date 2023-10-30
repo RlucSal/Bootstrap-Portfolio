@@ -130,6 +130,3 @@ Before your contributions can be merged, is required that you sign our Contribut
 
 
 
-----------------------------------------------------------------------------------------
-Using Bootstrap to create a Porfolio
-
